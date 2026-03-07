@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Ella Tieh">
+    <meta name="description" content="Personal Portfolio Website">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="head">
+            <h1>Tieh Eleanor Nangkou</h1>
+            <h6>Software Engineering | Full Stack Developer | M&E Specialist<h6>
+        </div>
+         <div class="navBar">
+        <nav>
+            <a href="#home" class="active">Home</a>
+            <a href="#about">Experiences</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </div>
+    </header>
+    <main>
+   
+
+    <section id="home" class="purpose">
+        <div class="div1">
+            <h2>Hello, I'm Tieh</h2>
+            <p>
+                A computer Software Engineering graduate passionate about building
+                scalable web applications and using data driven approaches to improve
+                healthcare programs in Cameroon. Currently contributing to the <strong><abbr
+                        title="Elizabeth Glaser Pediatric  AIDS Foundation">EGPAF</abbr></strong>
+                Project in Yaounde as Data Entry Specialist.
+            </p><br><br>
+            <div class="contactMe">
+             <a href="#contact" class="btn1" >Contact Me</a>
+        </div>
+         <div class="socials">
+            <a href="https://www.linkedin.com/in/ella-tieh-8114ba288" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="https://github.com/tiehella-pixel" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="mailto:tiehella@gmail.com">Email</a>
+        </div><br>
+        </div>
+        
+        <div class="picture">
+            <img src="images/potfolioPic.jpeg" alt="profilePic" class="picture">
+        </div>
+
+    </section>
+
+    <section id="about" class="about">
+        <div class="card">
+            <h2>Experiences</h2>
+            <table>
+                <tr>
+                    <th>Role</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td>
+                        <h4>Data Entry Specialist</h4>
+                    </td>
+                    <td>
+                        <p>
+                            Managing data collection, validation, reporting and ensuring accuracy of
+                            <em>HIV</em> program data.
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h4>QI/M&E</h4>
+                    </td>
+                    <td>
+                        <p>
+                            Led data quality assessments, performance tracking, monitoring and evaluation, and
+                            continuous quality
+                            improvement initiatives.<br>
+                        </p>
+                    </td>
+                </tr>
+            </table>
+        </div><br>
+        <div class="cv">
+            <h3>To have a better understanding of my <strong>proffessional</strong> experience:</h3>
+            <div class="btn">
+                <a href="/TiehElla_CV_.pdf" download>Download CV</a>
+            </div>
+        </div>
+    
+    </section>
+    <section id="skills">
+        <h2>Technical Skills</h2>
+        <div class="skills">  
+            <div>
+                <h3>Frontend</h3>
+                <p>HTML, CSS, JavaScript, React</p>
+            </div>
+            <div>
+                <h3>Backend</h3>
+                <p>Node.js, Express, MongoDB</p>
+            </div>
+            <div>
+                <h3>Data & M&E</h3>
+                <p>DHIS2, Excel, Data Cleaning, Reporting, Data Quality Assessment</p>
+            </div>
+            <div>
+                <h3>Tools</h3>
+                <p>Git, GitHub, VS Code</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="contact-container">
+            <h2>Let's Work Together</h2>
+            <p class="subtitle">Have a project in mind? I'd love to hear from you.</p>
+    
+            <form id="contactForm">
+                <div class="input-group">
+                    <input type="text" id="name" placeholder="Your Name" required>
+                    <p id="nameError"></p>
+                </div>
+    
+                <div class="input-group">
+                    <input type="email" id="email" placeholder="Your Email" required>
+                    <p id="emailError"></p>
+                </div>
+    
+                <div class="input-group">
+                    <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+                    <p id="messageError"></p>
+                    <p id="charCount">0 / 200</p>
+                </div>
+    
+                <button type="submit" >Send Message</button>
+                <p id="success"></p>
+            </form>
+        </div>
+    </section>
+    
+    </main>
+    <footer>
+        <hr>
+        &lt;&lt;&lt; &copy; 2026 Ella Tieh &lt;&lt;&lt;<br>
+    </footer>
+    <script src="script.js"></script>
+    </body>
+    
+    </html>
