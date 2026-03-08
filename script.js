@@ -7,6 +7,39 @@ const messageInput = document.getElementById("message"); // needed for char coun
   charCount.textContent = messageInput.value.length + " / 200";
   });
 
+//to add event listener for active link in nav 
+//start by selecting all your pages sections
+const sections = document.querySelectorAll("section");
+const navLinks = document.querySelectorAll("nav a");
+
+//add scroll event listerner to window
+window.addEventListener("scroll", () => {
+
+  let current = "";
+
+  //loop through each section to check if the scroll position from the top
+  //  is within the section and if so, set the current variable to the section's id
+  sections.forEach(section => {
+    const sectionTop = section.offsetTop;
+    const sectionHeight = section.clientHeight;
+
+    if (scrollY >= sectionTop - 100) {
+      current = section.getAttribute("id");
+    }
+  });
+
+  //loop through and remove active class from all nav links and add it to the one
+  //whose href matches the current section id
+  navLinks.forEach(link => {
+    link.classList.remove("active");
+
+    if (link.getAttribute("href") === "#" + current) {
+      link.classList.add("active");
+    }
+  });
+
+});
+
 
 form.addEventListener("submit", function(event) {
   event.preventDefault(); // stop page refresh
