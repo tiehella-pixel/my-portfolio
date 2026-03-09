@@ -331,3 +331,101 @@ button:hover {
 .socials a:hover {
   color: rgb(17, 10, 81);
 }
+
+@media (max-width:768px){
+
+nav a{
+flex-direction:column;
+align-items:center;
+margin: 5px 0;
+font-size: 0.6em;
+padding: 2px 0;
+}
+
+.skills{
+    line-height: 1.5em;
+    padding: 0 10px;
+    margin-bottom: 0;
+}
+
+h1, .purpose h2, .card h2, #skills h2, #contact h2{
+font-size:1rem;
+}
+.purpose h2, .card h2{
+    margin-top: 45%;
+    margin-bottom: 10px;
+}
+.head h6, .contactMe, .btn, .socials a, .cv h3, #skills h3{
+    font-size: 0.85rem;
+}
+.purpose p, .card table, .skills p, #contact p{
+ font-size: 0.85em;
+ max-width: 100%;
+ margin-bottom: -10px;
+}
+.socials{
+   margin-top: 10px;
+   margin-bottom: -30px;
+}
+.socials a{
+    padding: 5px 0;
+    margin: 5px 0;
+}
+.purpose{
+    padding: 20px 10px 5px;
+    height: auto;
+    gap: 0.1em;
+}
+
+.btn1{
+    padding: 0.25rem 1rem;
+    font-size: 0.85rem;
+}
+img.picture{
+    min-width: 80px;
+    max-width: 100%;
+    height: auto;
+    margin-top: 45%;
+    padding: 0%;
+}
+.card{
+    margin-left: 0;
+}
+#about{
+    max-width: 100%;
+    gap: 0em;
+    padding: 5px;
+}
+#about .btn{
+    margin-top: -5px;
+}
+.btn a{
+    padding: 0.25rem 1rem;
+    font-size: 0.85rem;
+} 
+#skills h2{
+    margin-bottom: 1.5em;
+    margin-top: 50%;
+}
+#contact input, #contact textarea{
+    font-size: 0.9em;
+    
+}
+#contact textarea{
+    padding: 10px;
+    margin-bottom: -10px;
+}
+#contact .subtitle{
+    font-size: 0.85em;
+    margin-bottom: 8px;
+}
+button{
+    padding: 10px;
+    font-size: 0.85rem;
+    margin-bottom: -55px;
+}
+#contact h2{
+    margin-top: 30%;
+    margin-bottom: 10px;
+}
+}
