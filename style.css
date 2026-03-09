@@ -352,7 +352,7 @@ h1, .purpose h2, .card h2, #skills h2, #contact h2{
 font-size:1rem;
 }
 .purpose h2, .card h2{
-    margin-top: 25%;
+    margin-top: 15%;
     margin-bottom: 10px;
 }
 .head h6, .contactMe, .btn, .socials a, .cv h3, #skills h3{
@@ -405,7 +405,7 @@ img.picture{
 } 
 #skills h2{
     margin-bottom: 1.5em;
-    margin-top: 25%;
+    margin-top: 15%;
 }
 #contact input, #contact textarea{
     font-size: 0.9em;
@@ -425,7 +425,7 @@ button{
     margin-bottom: -55px;
 }
 #contact h2{
-    margin-top: 25%;
+    margin-top: 15%;
     margin-bottom: 10px;
 }
 }
