@@ -348,9 +348,9 @@ padding: 2px 0;
     margin-bottom: 0;
 }
 h1{
-    font-size: 1.8rem;
+    font-size: 2rem;
 }
-h1, .purpose h2, .card h2, #skills h2, #contact h2{
+.purpose h2, .card h2, #skills h2, #contact h2{
 font-size:1rem;
 }
 .purpose h2, .card h2{
